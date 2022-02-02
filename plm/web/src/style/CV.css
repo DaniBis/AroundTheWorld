@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 30px;
+    scroll-behavior: smooth;
+}
+
+.introduction {
+    padding: 3em;
+    font-size: 1.2em;
+}
+
+.introduction img {
+    padding: 1em;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.shortDescription.row {
+    background: var(--purple);
+    padding: 5em;
+}
+
+.shortDescription.col {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.shortDescription.col h1 {
+    margin: 10px 0px;
+}
+
+.shortDescription p{
+     font-size: 1.2em;
+}
+
+.shortDescription a {
+    color: var(--green);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skillsList {
+    max-width: 1000px;
+    background-color: #FFF ;
+    border: 3px solid var(--blue-violet);
+    margin: -27px auto auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px #888;
+}
+
+.skillsList img {
+    width: 200px;
+    margin: 50px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(215deg) brightness(50%) contrast(90%);
+}
+
+#qualifications {
+    display: flex;
+    justify-content: space-around;
+}
+
+#qualifications h4 {
+    margin: 15px 0px;
+    color: var(--green);
+}
