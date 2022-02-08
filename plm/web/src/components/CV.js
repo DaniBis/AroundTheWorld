@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from './../handlers/ContactForm';
+import ContactForm from './../components/contactForm/ContactForm';
 import './../style/CV.css';
 import Dan from './../images/Dan.svg';
 

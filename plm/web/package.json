@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "cors": "^2.8.5",
     "express": "^4.17.2",
+    "focus-trap-react": "^8.9.1",
     "node-sass": "^6.0.1",
     "nodemailer": "^6.7.2",
     "react": "^17.0.2",

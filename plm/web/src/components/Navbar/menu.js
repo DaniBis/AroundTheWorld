@@ -5,8 +5,8 @@ import Home from './../home';
 import CV from './../CV';
 import activStyle from './../activStyle';
 import travel from './../travel';
-import ContactForm from './../../handlers/ContactForm';
-import Footer from './../../templates/footer';
+import ContactForm from './../../components/contactForm/ContactForm';
+import footerItems from './../../templates/footer';
 import menuBar from './../../images/menu-bar.png';
 import {Sidebar, SidebarLi, MainMenu} from './../../style/mobileMenuStyle';
 import { Route, BrowserRouter as Router, Link, Switch } from "react-router-dom";
@@ -74,7 +74,7 @@ const Navbar = () =>{
           </Switch>
         </header>
         <body className="body">
-          <Footer />
+          <footerItems />
         </body>
       </Router>
     )

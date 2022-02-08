@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from './../handlers/ContactForm';
+import ContactForm from './../components/contactForm/ContactForm';
 
 export default function travel() {
     return (

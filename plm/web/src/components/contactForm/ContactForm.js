@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
     const { name, email, message } = e.target.elements;
@@ -23,7 +23,7 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={onSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
