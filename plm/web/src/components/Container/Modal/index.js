@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ContactForm  from '../contactForm/ContactForm';
+import ContactForm  from '../../contactForm/ContactForm';
 import FocusTrap from 'focus-trap-react';
 export const Modal = ({
   onClickOutside,

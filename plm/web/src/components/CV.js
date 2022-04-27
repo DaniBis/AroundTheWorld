@@ -2,6 +2,7 @@ import React from 'react';
 import ContactForm from './../components/contactForm/ContactForm';
 import './../style/CV.css';
 import Dan from './../images/Dan.svg';
+import Footer from './../templates/footer';
 
 export default function CV() {
     return (
@@ -47,6 +48,7 @@ export default function CV() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

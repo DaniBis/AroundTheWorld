@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Modal } from '../Modal';
-import TriggerButton from '../TriggerButton';
+import { Modal } from './Modal';
+import TriggerButton from './TriggerButton';
+import './../../style/Container.css';
 export class Container extends Component {
   state = { isShown: false };
   showModal = () => {
