@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './../../style/contactForm.css';
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -23,7 +24,7 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={onSubmit}>
+    <form className="popUpForm" onSubmit={onSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
