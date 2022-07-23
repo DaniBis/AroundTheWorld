@@ -1,7 +1,7 @@
 .mainHome{
     width: 100%;
     background: url('./../images/mountains_background.jpg.webp') no-repeat fixed;
-    background-size: 1700px 1700px;
+    background-size: 2000px 2000px;
 }
 
 .theMountain {
@@ -93,6 +93,150 @@
     left: 1100px;
     top: 600px;
     position: absolute;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10vw;
+}
+
+.map_container {
+    position: relative;
+    padding: 0 2vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.map_container img {
+    width: 100%;
+}
+
+.p-map_regions_text::after {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    vertical-align: middle;
+    content: "";
+    background: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2046%2046%22%3E%3Cdefs%3E%3Cstyle%3E.a%2C.b%7Bfill%3Anone%3Bstroke-miterlimit%3A10%3Bstroke-width%3A2px%3B%7D.a%7Bstroke%3A%23666%3B%7D.b%7Bstroke%3A%230d0d0d%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctitle%3Eicon_plusbd%3C%2Ftitle%3E%3Cpath%20class%3D%22a%22%20d%3D%22M23%2C3A20%2C20%2C0%2C1%2C0%2C43%2C23%2C20%2C20%2C0%2C0%2C0%2C23%2C3Z%22%2F%3E%3Cpath%20class%3D%22b%22%20d%3D%22M23%2C14V32%22%2F%3E%3Cpath%20class%3D%22b%22%20d%3D%22M13.91%2C23H32.09%22%2F%3E%3C%2Fsvg%3E) no-repeat;
+}
+
+.p-map_regions_text{
+    position: absolute;
+    width: 100%;
+    font-size: 1.7vw;
+    text-decoration: none;
+}
+
+.p-map_regions_text::before {
+    vertical-align: middle;
+    content: "";
+    border-top: 2px dotted #666;
+}
+
+.is-hokkaido {
+    right: -37%;
+    top: 12%;
+}
+
+.is-tohoku {
+    right: -37%;
+    top: 41%;
+}
+
+.is-kanto {
+    right: -37%;
+    top: 60%;
+}
+
+.is-chubu {
+    height: 200px;
+    right: 1%;
+    top: 50%;
+}
+
+.is-kinki {
+    right: -17%;
+    top: 75%;
+}
+
+.is-chugoku {
+    height: 200px;
+    right: 20%;
+    top: 63%;
+}
+
+.is-shikoku {
+    height: 200px;
+    right: 8%;
+    top: 83%;
+}
+
+.is-okinawa {
+    height: 200px;
+    right: 40%;
+    top: 75%;
+}
+
+.is-hokkaido::before {
+    display: inline-block;
+    width: 2.8vw;
+    margin: auto 0.5vw;
+}
+
+.is-tohoku::before {
+    display: inline-block;
+    width: 2.8vw;
+    margin: auto 0.5vw;
+}
+
+.is-kanto::before {
+    display: inline-block;
+    width: 2.8vw;
+    margin: auto 0.5vw;
+}
+
+.is-chubu::before {
+    position: relative;
+    display: block;
+    width: 2.8vw;
+    margin: auto;
+    top: 4vw;
+    transform: rotate(90deg);
+}
+
+.is-kinki::before {
+    display: inline-block;
+    width: 2.8vw;
+    margin: auto 0.5vw;
+}
+
+.is-chugoku::before {
+    position: relative;
+    display: block;
+    width: 2.8vw;
+    margin: auto;
+    top: 4vw;
+    transform: rotate(90deg);
+}
+
+.is-shikoku::before {
+    display: inline-block;
+    width: 2.8vw;
+    margin: auto 0.5vw;
+}
+
+.is-okinawa::before {
+    position: relative;
+    display: block;
+    width: 2.8vw;
+    margin: auto;
+    top: 4vw;
+    transform: rotate(90deg);
 }
 
 @media only screen and (max-width: 1000px) { 
